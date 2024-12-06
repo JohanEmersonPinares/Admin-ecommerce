@@ -72,7 +72,7 @@ const List = ({ token }) => {
                 <p className="text-gray-600">{item.category}</p>
                 <p className="text-gray-800 font-medium">{currency}{item.price}</p>
                 <p
-                  onClick={() => removeProduct(item._id)}
+                  onClick={() => removeProduct(item.id)}
                   className="text-red-600 text-center cursor-pointer font-semibold hover:text-red-800 transition-colors duration-200"
                 >
                   X
